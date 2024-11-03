@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5% /* 10 px*/
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    background-color: #F5F4F0;
+    padding: 8.8rem 0 4.8rem;
+    margin: auto;
+    width: 112rem;
+}
+
+body, header, main, footer, .page-title, .banner-wrapper, .description, .content-title, ol, .ol-item {
+    display: flex;
+    flex-direction: column;
+}
+
+header, body {
+    gap: 4rem;
+}
+
+.page-title {
+    gap: .8rem;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+h1, h2, .h3 {
+    color: #1B1B1B;
+}
+
+h4 {
+    color: #E95E10;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.banner-wrapper {
+    gap: 2.4rem;
+}
+
+.banner-wrapper p {
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    color: #333333;
+}
+
+main {
+    border: #D9D9D9 solid;
+    border-width: 1px 0;
+    padding: 4rem 0;
+    gap: 4rem;
+}
+
+main .description, main ol {
+    margin-top: 2.4rem;
+}
+
+main .description {
+    gap: .8rem;
+}
+
+.content-title {
+    gap: 2px;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+footer {
+    text-align: center;
+    gap: 6.5rem;
+}
+
+footer p:last-child {
+    display: flex;
+    gap: 4px;
+    font-family: "Alice", serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3 {
+    font-size: 2.8rem;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+    gap: 4.8rem;
+}
+
+.ol-item {
+    gap: 2rem;
+}
+
+.list {
+    font-weight: bold;
+}
+
+.history {
+    color: #0C51A7;
+}
+
+.family {
+    color: #E5245E;
+}
+
+.couple {
+    color: #591B98;
+}
+
+.budget {
+    color: #E95E10;
+}
